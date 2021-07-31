@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>jokenpô</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Neucha&family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<h1>Jo-ken-pô</h1>
+	</header>
+
+	<main>
+
+		<section id="escolha">
+
+			<button id="pedra">
+				<figure>
+					<img src="/imagens/pedra.png" alt="">
+					
+					<!-- <figcaption>pedra</figcaption> -->
+				</figure>
+			</button>
+			
+			<button id="papel">
+				<figure>
+					<img src="/imagens/papel.png" alt="papel">
+					<!-- <figcaption>papel</figcaption> -->
+				</figure>
+			</button>
+			
+			<button id="tesoura">
+				<figure>
+					<img src="/imagens/tesoura.png" alt="tesoura">
+					<!-- <figcaption>tesoura</figcaption> -->
+				</figure>
+			</button>
+
+		</section>
+
+		<section id="fim">
+
+			<div id="resultado"></div>
+			<figure id="imgFinal"></figure>
+			<button id="jogarDeNovo">Jogar novamente</button>
+			
+		</section>
+
+	</main>
+
+	<script src="jogo.js"></script>
+</body>
+</html>

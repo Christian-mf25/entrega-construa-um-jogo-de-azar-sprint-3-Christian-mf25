@@ -1,0 +1,93 @@
+body, figcaption, figure, img, div, h3, section, h1, header, main, button{
+	border: 0;
+	margin: 0;
+	padding: 0;	
+}
+
+body{
+	background-color: #264653;
+}
+
+h1{
+	font-family: 'Carter One', cursive;
+	text-align: center;
+    margin: 20px auto;
+    font-size: 3rem;
+	color: rgb(195, 39, 188);
+}
+
+#escolha{
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+	button{
+		background-color: transparent;
+		border: solid;
+		background-color: #d8bfd8;
+		border-radius: 85px;
+		padding: 12px;
+	}
+
+#fim{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+	#fim h3{	
+		font-family: 'Neucha', cursive;
+		text-align: center;
+		font-size: 2rem;
+	}
+		#imgFinal img{
+			margin: 15px 25px;
+			width: 95px;
+			height: 90px;
+		}
+	#fim button{
+		font-size: 1.7rem;
+    	background: #b6ccfe;
+		border: solid 1px #cbc0d3;
+
+	}
+
+img{
+	width: 70px;
+    height: 70px;
+}
+
+button:hover{
+	background-color: teal;
+}
+
+.esconder{
+	display: none;
+}
+
+@media (min-width: 650px){
+
+	h1{
+		font-size: 5.5rem;
+	}
+
+	#escolha{
+		max-width: 750px;
+		margin: 0 auto;
+		margin-top: 70px;
+	}
+
+	img{
+		width: 125px;
+    	height: 125px;
+	}
+
+	#fim h3{
+		font-size: 3rem;
+	}
+		#imgFinal img{
+			width: 150px;
+			height: 150px;
+			margin: 50px 30px;
+		}
+}

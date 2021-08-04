@@ -4,7 +4,7 @@ const body = document.querySelector("body")
 
 const btnPedra = document.getElementById("pedra")
 const imgPedra = document.createElement("img")
-imgPedra.src = "/imagens/pedra.png"
+imgPedra.src = "./imagens/pedra.png"
 const botPedra = document.createElement("img")
 botPedra.src = "/imagens/botPedra.png"
 

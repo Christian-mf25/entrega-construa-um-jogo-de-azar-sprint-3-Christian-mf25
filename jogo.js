@@ -6,19 +6,19 @@ const btnPedra = document.getElementById("pedra")
 const imgPedra = document.createElement("img")
 imgPedra.src = "./imagens/pedra.png"
 const botPedra = document.createElement("img")
-botPedra.src = "/imagens/botPedra.png"
+botPedra.src = "./imagens/botPedra.png"
 
 const btnPapel = document.getElementById("papel")
 const imgPapel = document.createElement("img")
-imgPapel.src = "/imagens/papel.png"
+imgPapel.src = "./imagens/papel.png"
 const botPapel = document.createElement("img")
-botPapel.src = "/imagens/botPapel.png"
+botPapel.src = "./imagens/botPapel.png"
 
 const btnTesoura = document.getElementById("tesoura")
 const imgTesoura = document.createElement("img")
-imgTesoura.src = "/imagens/tesoura.png"
+imgTesoura.src = "./imagens/tesoura.png"
 const botTesoura = document.createElement("img")
-botTesoura.src = "/imagens/botTesoura.png"
+botTesoura.src = "./imagens/botTesoura.png"
 
 const jogarDeNovo = document.getElementById("jogarDeNovo")
 jogarDeNovo.classList.add("esconder")
